@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Feb  3 09:02:01 2021
+Created on Wed Feb  3 09:02:02 2021
 
 @author: user
 """
@@ -12,6 +12,6 @@ def planttree(x,y,z):
     mc.setBlocks(x-1,y+4,z-1,x+1,y+6,z+1,161)
 x,y,z=mc.player.getTilePos()
 
-for i in range(0,100,5):
-    planttree(x+i,y,z)
-    
+for i in range(0,50,5):
+    for i in range(0,50,5):
+        planttree(x+i+5,y+i+j,z)
