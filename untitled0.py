@@ -9,8 +9,8 @@ mc=Minecraft.create("35.229.251.147")
 import time
 
 for i in range(28):
-    myID=mc.getPlayerEntityId("Baseballian")
-    mc.executeCommand("tp Baseballian 1052 68 974")
+    myID=mc.getPlayerEntityId("APE_43")
+    mc.executeCommand("tp APE_43 1052 68 974")
     mc.postToTitle(myID,"過了第"+str(i//2+1)+"天")
     mc.executeCommand("time add 14000")
     time.sleep(1)
